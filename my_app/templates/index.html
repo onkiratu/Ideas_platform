@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block title %}IdeasPlatform{% endblock title %}
+
+{% block body %}
+<div class="content">
+    <div id="row1" class="row1">
+        <div class="photo">
+            <img src="{{ url_for('static', filename='img/img_3.jpg') }}">
+        </div>
+
+        <div class="intro">
+            <h2>Welcome to Our Ideas Submission Platform</h2>
+            <p>Share your innovative ideas and get them turned into engaging articles. <br>
+                Our platform connects visionaries with our team of talented writers to bring your concepts to life.</p>
+        </div>
+    </div>
+
+    <div id="row2" class="row2">
+        <h3>How It Works</h3>
+
+        <div class="columns">
+            <div class="submit">
+                <p class="header">Submit Your Idea</p>
+                <p>Simply fill out our easy-to-use form with a brief description of your idea. We'll review it and get
+                    in touch if we think it's a great fit.</p>
+            </div>
+
+            <div class="submit">
+                <p class="header">Collaborate with Writers</p>
+                <p>Our writers will work closely with you to develop your idea into a compelling article. We'll keep you
+                    updated throughout the process.</p>
+            </div>
+
+            <div class="submit">
+                <p class="header">Publish and Promote</p>
+                <p>Once the article is complete, we'll publish it on our platform and promote it to our engaged
+                    audience. You'll get full credit as the idea submitter.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="row3" class="row3">
+        <h3>Submit Your Idea</h3>
+
+        <div class="idea">
+            <div class="describe">
+                <p class="header">Describe Your Idea</p>
+                <p>Tell us about your innovative concept in a few sentences. We're looking for fresh, thought-provoking ideas.</p>
+            </div>
+
+            <div class="describe">
+                <p class="header">Share Your Expertise</p>
+                <p>Explain why you're passionate about this idea and how it could benefit your readers.</p>
+
+            </div>
+            <div class="describe">
+                <p class="header">Provide Contact Info</p>
+                <p>Include your name, email, and any other relevant details so we can get in touch.</p>
+
+
+            </div>
+            <div class="describe">
+                <p class="header">Submit with Confidence</p>
+                <p>Our team will review your idea and get back to you promptly. Don't hold back - we're excited to hear from you!</p>
+                
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="row4" class="row4">
+        <h3>Get in Touch</h3>
+
+        <div class="reach_us">
+            <div class="contact">
+                <img src="{{ url_for('static', filename='img/email.png') }}" alt="email">
+                <p class="header">Email</p>
+                <p>nkiratu@gmail.com</p>
+            </div>
+
+            <div class="contact">
+                <img src="{{ url_for('static', filename='img/phone.png') }}" alt="phone">
+                <p class="header">Phone</p>
+                <p>+254 726 756 256</p>
+
+            </div>
+            <div class="contact">
+                <img src="{{ url_for('static', filename='img/social_media.png') }}" alt="social media">
+                <p class="header">Social Media</p>
+                <p>Follow us on <a href="https://x.com/onKiratu">X</a> and <a href="https://www.linkedin.com/in/kiratu-onesmas-3a89a995/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=ke">LinkedIn</a></p>
+
+
+            </div>
+            <div class="contact">
+                <img src="{{ url_for('static', filename='img/address.png') }}" alt="phone">
+                <p class="header">Address</p>
+                <p>950 - 00606, Sarit Centre, <br> Nairobi, Kenya</p>
+                
+            </div>
+        </div>
+
+    </div>
+
+</div>
+{% endblock body %}

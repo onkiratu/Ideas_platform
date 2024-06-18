@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}SignUp{% endblock title %}
+
+{% block body %}
+<h2 class="header-dash">Dashboard</h2>
+<div class="post">
+    
+    {% for order in orders %}
+    <div class="order">
+        Client: {{ order.email }} <br>
+        Type: {{ order.type }} <br>
+        Keywords: {{ order.keywords }} <br>
+        Wordcount: {{ order.wordcount }} <br>
+        Description: {{ order.description }}
+    </div>
+    <hr>
+    {% endfor %}
+
+</div>
+
+{% endblock body %}

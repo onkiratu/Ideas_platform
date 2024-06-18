@@ -1,0 +1,278 @@
+body {
+    background-color: #BBD5ED;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #BBBDF6;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center p {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar h2 {
+    font-size: 30px;
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+
+.navbar p {
+    text-decoration: none;
+}
+
+.signup,
+.login {
+    background-color: #655A7C;
+    height: fit-content;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    color: #CEF9F2;
+
+}
+
+.buttons {
+    display: flex;
+    margin-right: 10px;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+    background-color: #CEE7E6;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+   
+
+}
+
+.photo {
+    width: 50%;
+    flex: 1 1 45%;
+    border: 1px #CEE7E6 rgba(0, 0, 0, 0.2);
+}
+
+.intro {
+    width: 50%;
+    flex: 1 1 45%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px #CEE7E6 rgba(0, 0, 0, 0.2);
+    border: #CEE7E6 solid;
+
+}
+
+.photo img {
+    width: 580px;
+    height: 400px;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+
+.intro h2 {
+    font-size: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-top: 0px;
+
+}
+
+.intro p {
+    font-size: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* row 2 */
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #CEE7E6;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 15px;
+    align-items: center;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.header {
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.row2 h3 {
+    font-size: 40px;
+
+}
+
+
+/* row 3 */
+
+.row3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #CEE7E6;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 15px;
+    align-items: center;
+}
+
+
+
+.idea {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.describe {
+    margin-top: 10px;
+    background-color: #BBD5ED;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.row3 h3 {
+    font-size: 40px;
+
+}
+
+/* row4 */
+
+.row4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #CEE7E6;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 15px;
+    align-items: center;
+}
+
+
+
+.reach_us {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact {
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #BBD5ED;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.row4 h3 {
+    font-size: 40px;
+
+}
+
+/* signup form */
+.signup-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #BBBDF6;
+    width: 70%;
+    margin: 20px auto;
+
+
+}
+
+.field {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 25px;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 20px;
+
+}
+
+#fields {
+
+    margin-left: 40px;
+}
+
+.submitbtn {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#submitbtn {
+    display: flex;
+    justify-content: center;
+}
+
+/* dashboard */
+
+.order {
+    background-color: #BBBDF6;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.header-dash {
+    margin-left: 20px;
+}
+
+.logout {
+   
+    background-color: #655A7C;
+    height: fit-content;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    color: #CEF9F2;
+}

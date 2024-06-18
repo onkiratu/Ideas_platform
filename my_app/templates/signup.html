@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}SignUp{% endblock title %}
+
+{% block body %}
+
+<div class="signup-form">
+
+    <form action="" method="post" novalidate>
+
+        <div id="fields">
+            {{ form.hidden_tag() }} <br>
+            {{ form.firstname() }} <br>
+            {{ form.lastname() }} <br>
+            {{ form.username() }} <br>
+            {{ form.email() }} <br>
+            {{ form.password() }} <br>
+            {{ form.confirmpassword() }}
+        </div>
+
+
+        <div id="submitbtn">
+            {{ form.submit() }}
+        </div>
+
+
+    </form>
+</div>
+
+
+
+
+
+{% endblock body %}

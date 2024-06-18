@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Login{% endblock title %}
+
+{% block body %}
+
+<div class="signup-form">
+    <form action="" method="post" nonvalidate>
+
+        <div id="fields">
+            {{ form.hidden_tag() }}
+            {{ form.username() }} <br>
+            {{ form.password() }} <br>
+        </div>
+
+        <div id="submitbtn">
+            {{ form.submit() }}
+        </div>
+
+    </form>
+
+</div>
+
+{% endblock body %}

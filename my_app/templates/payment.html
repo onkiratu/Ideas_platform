@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Payment{% endblock title %}
+
+{% block body %}
+    <form action="" method="post" nonvalidate>
+        {{ form.hidden_tag() }}
+        {{ form.paybillnumber() }} <br>
+        {{ form.accountnumber() }} <br>
+        {{ form.payreference() }} <br>
+        {{ form.submit() }}
+    </form>
+
+{% endblock body %}

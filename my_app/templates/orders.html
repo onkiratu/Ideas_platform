@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Order{% endblock title %}
+
+{% block body %}
+
+<div class="signup-form">
+    <form action="" method="post" nonvalidate>
+
+        <div id="fields">
+            {{ form.hidden_tag() }} <br>
+            {{ form.type() }} <br>
+            {{ form.headline() }} <br>
+            {{ form.keywords() }} <br>
+            {{ form.description() }} <br>
+            {{ form.wordcount() }} <br>
+            {{ form.price() }} <br>
+            {{ form.email() }} 
+            
+
+        </div>
+
+
+        <div id="submitbtn">
+            {{ form.submit() }}
+        </div>
+
+
+
+    </form>
+
+</div>
+
+
+{% endblock body %}
